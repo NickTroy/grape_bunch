@@ -3,7 +3,7 @@ Gem::Specification.new do |s|
   s.version     = '0.0.2'
   s.date        = '2016-11-15'
   s.summary     = "Binds together grape dependencies"
-  s.description = "Set of grape dependencies which will be installed inside rails app, provides rails generators."
+  s.description = "Set of grape dependencies which will be installed inside rails app."
   s.authors     = ["Mykyta Troianov"]
   s.email       = 'nicktroyanov@gmail.com'
   s.files       = Dir.glob("{lib}/**/*")
