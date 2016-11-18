@@ -1,13 +1,16 @@
+$:.push File.expand_path("../lib", __FILE__)
+require 'grape_bunch/version'
+
 Gem::Specification.new do |s|
   s.name        = 'grape_bunch'
-  s.version     = '0.0.2'
+  s.version     = GrapeBunch::VERSION.dup
   s.date        = '2016-11-15'
   s.summary     = "Binds together grape dependencies"
   s.description = "Set of grape dependencies which will be installed inside rails app."
   s.authors     = ["Mykyta Troianov"]
   s.email       = 'nicktroyanov@gmail.com'
   s.files       = Dir.glob("{lib}/**/*")
-  s.homepage    = 'http://rubygems.org/gems/grape_bunch'
+  s.homepage    = 'https://github.com/NickTroy/grape_bunch'
   s.license     = 'MIT'
   s.add_runtime_dependency 'grape', '0.18.0'
   s.add_runtime_dependency 'grape-entity', '0.5.1'
