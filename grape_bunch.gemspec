@@ -6,7 +6,8 @@ Gem::Specification.new do |s|
   s.description = "Set of grape dependencies which will be installed inside rails app, provides rails generators."
   s.authors     = ["Mykyta Troianov"]
   s.email       = 'nicktroyanov@gmail.com'
-  s.files       = Dir['lib/*.rb']
+  s.files       = Dir.glob("{lib}/**/*")
   s.homepage    = 'http://rubygems.org/gems/grape_bunch'
   s.license     = 'MIT'
+  s.add_development_dependency 'rails', '~> 5.0'
 end
