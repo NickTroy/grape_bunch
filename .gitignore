@@ -1,3 +1,4 @@
 .ruby-gemset
 .ruby-version
-grape_bunch-0.0.1.gem
+grape_bunch-0.0.*
+Gemfile.lock
